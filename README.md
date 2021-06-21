@@ -1,4 +1,4 @@
-Introduction:
+# Introduction:
 
 Our dataset was originally sourced from 
 https://www.gob.mx/salud/documentos/datos-abiertos-152127   and released by Mexican 
@@ -13,7 +13,7 @@ with covid 19, which is saved in “.CSV” file format. Altogether there are 23
 label. 
 
 
-FEATURE ENGINEERING
+# FEATURE ENGINEERING
 
 The task here is to prepare all dataset needed from raw data dataset before various modeling techniques processing to predict Covid 19 death cases. 
 
@@ -24,7 +24,7 @@ We derived our target column death from the column date_died. If provide two cla
 
 
 
-MODELING TECHNIQUES
+# MODELING TECHNIQUES
 
 After preparing the data, we can implement several tree-based methods and set performance metrics to evaluate their performance with our passenger data.
 
@@ -54,7 +54,7 @@ The number of trees to use is defined in the variable n_estimators_hyp, and the 
 
 
 
-CONCLUSION AND FUTURE SCOPE
+# CONCLUSION AND FUTURE SCOPE
 
 We can use these models to better understand the initial problem of the dataset and how to best determine whether a patient is at high risk of death and need more resources than normal patients.
 From the comparison we could see, the Random Forest model with random oversampling gets a high accuracy, lesser time to be trained and high precision as well. It is important to consider the tradeoff between accuracy and the running time, in this project we would recommend predicting the customer airline satisfaction using the Random Forest method under random oversampling. 
