@@ -51,6 +51,9 @@ The number of trees to use is defined in the variable n_estimators_hyp, and the 
  
 
  Calling our custom eval_result function allows us to see the overall accuracy of this random forest model. We got the best result with random forest with random oversampling.The  accuracy for the training dataset is approximately 93%  and for testing dataset is 91% and the area under the ROC curve for it is about 0.97. However, since it is a highly imbalanced dataset, we have also paid attention to Precision Recall curve and area under PR curve is 0.99 which is encouraging
+ 
+ # VGG16:
+ On the basis of transfer learning, We have build an image recognition model to classify covid patients from non covid patients. This was being done through keras library and VGG16 architecture using imagenet dataset. Data used for training and testing purpose was downloaded from Kaggle.com which is a publicly available dataset
 
 
 
