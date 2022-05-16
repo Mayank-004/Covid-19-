@@ -11,6 +11,8 @@ July 22, 2020. The dataset contains anonymized patient related data to predict f
 with covid 19, which is saved in “.CSV” file format. Altogether there are 23 columns and 
 5,66,602 rows. Many of the columns are ordinal factors that assigns patients medical situation a 
 label. 
+![image](https://user-images.githubusercontent.com/79218659/168509715-1fe87a31-7a7b-4b97-9cf7-1a174c6f494e.png)
+![image](https://user-images.githubusercontent.com/79218659/168509759-79649d64-37e9-41a2-8715-457e5367eb11.png)
 
 
 # FEATURE ENGINEERING
@@ -21,6 +23,10 @@ A.	Feature selection
 
 We derived our target column death from the column date_died. If provide two class label in our target column death as 0 and 1.
 1 is being given to the person who is alive and in death cases 0 was allotted.
+![image](https://user-images.githubusercontent.com/79218659/168509797-c537edfb-b8bf-4b1a-81ae-cf11dce9a03b.png)
+![image](https://user-images.githubusercontent.com/79218659/168509841-7e1d2a9a-7db2-4c58-9990-8e54b3d8d826.png)
+![image](https://user-images.githubusercontent.com/79218659/168509857-b8bf62ea-9e2f-4740-a462-55647689cf34.png)
+![image](https://user-images.githubusercontent.com/79218659/168510008-0d228c0b-2695-4195-b052-c040a06a8fbc.png)
 
 
 
