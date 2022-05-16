@@ -57,9 +57,22 @@ The number of trees to use is defined in the variable n_estimators_hyp, and the 
  
 
  Calling our custom eval_result function allows us to see the overall accuracy of this random forest model. We got the best result with random forest with random oversampling.The  accuracy for the training dataset is approximately 93%  and for testing dataset is 91% and the area under the ROC curve for it is about 0.97. However, since it is a highly imbalanced dataset, we have also paid attention to Precision Recall curve and area under PR curve is 0.99 which is encouraging
+ ![image](https://user-images.githubusercontent.com/79218659/168510124-ab701c59-8323-4976-898d-d7be70208880.png)
+ ![image](https://user-images.githubusercontent.com/79218659/168510222-6eed1b20-c0fd-4b32-91fc-af9b992ce480.png)
+![image](https://user-images.githubusercontent.com/79218659/168510234-f44c2190-c399-4883-bafc-ec25212994de.png)
+![image](https://user-images.githubusercontent.com/79218659/168510245-45b5d584-49b4-4205-82e8-17100521419d.png)
+![image](https://user-images.githubusercontent.com/79218659/168510254-f066c69b-ee63-4ec5-bac8-4d74ce3d289d.png)
+![image](https://user-images.githubusercontent.com/79218659/168510288-c0a66e9f-2643-45c6-90f9-da3889e78d55.png)
+
+
  
  # VGG16:
  On the basis of transfer learning, We have build an image recognition model to classify covid patients from non covid patients. This was being done through keras library and VGG16 architecture using imagenet dataset. Data used for training and testing purpose was downloaded from Kaggle.com which is a publicly available dataset
+![image](https://user-images.githubusercontent.com/79218659/168510156-d8cdb866-81bd-420d-8555-a7e90f2edf4b.png)
+![image](https://user-images.githubusercontent.com/79218659/168510369-3a86c590-6800-4bc8-a1d4-4a3e846603c3.png)
+![image](https://user-images.githubusercontent.com/79218659/168510380-6d1ae5d2-f46a-4b64-a130-9f30caeb2fa2.png)
+![image](https://user-images.githubusercontent.com/79218659/168510395-bc18d6c2-408b-4793-9f47-edef7601393f.png)
+![image](https://user-images.githubusercontent.com/79218659/168510405-7ca20bf6-262b-4a23-83b6-44f0a2d23ee8.png)
 
 
 
@@ -67,5 +80,7 @@ The number of trees to use is defined in the variable n_estimators_hyp, and the 
 
 We can use these models to better understand the initial problem of the dataset and how to best determine whether a patient is at high risk of death and need more resources than normal patients.
 From the comparison we could see, the Random Forest model with random oversampling gets a high accuracy, lesser time to be trained and high precision as well. It is important to consider the tradeoff between accuracy and the running time, in this project we would recommend predicting the customer airline satisfaction using the Random Forest method under random oversampling. 
+![image](https://user-images.githubusercontent.com/79218659/168510414-544c9594-9893-49ee-b2b5-3d3808196bfc.png)
+
 
 
