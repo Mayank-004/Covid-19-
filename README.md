@@ -85,7 +85,7 @@ From the comparison we could see, the Random Forest model with random oversampli
 
 #Covid 19 Tableau Dashboard
 
-# Covid19-Tableau-Dashboard
+# Covid19-Tableau-Dashboard ( OMICRON VARIANT )
 <img width="1319" alt="image" src="https://user-images.githubusercontent.com/79218659/168657261-026b4066-5317-49b4-ad58-0b2fd55ab199.png">
 <img width="1315" alt="image" src="https://user-images.githubusercontent.com/79218659/168657317-2cdf2543-1286-4f2a-b364-6f087e5541a5.png">
 <img width="1017" alt="image" src="https://user-images.githubusercontent.com/79218659/168657351-384fa8b9-4432-495b-822d-d9e91c18e149.png">
